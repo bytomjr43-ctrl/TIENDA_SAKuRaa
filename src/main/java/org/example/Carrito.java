@@ -7,13 +7,13 @@ public class Carrito {
     private final int id;
     private Cliente cliente;
     private List<LineaCarrito> lineas;
-    private String fechaCreacion; // string simple
+    private String fechaCreacion;
 
     public Carrito(Cliente cliente) {
         this.id = SEQ++;
         this.cliente = cliente;
         this.lineas = new ArrayList<>();
-        this.fechaCreacion = "hoy"; // placeholder simple
+        this.fechaCreacion = "hoy";
     }
 
     public int getId() { return id; }

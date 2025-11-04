@@ -9,7 +9,7 @@ public class Compra {
     private Cliente cliente;
     private List<LineaCompra> lineas;
     private double total;
-    private String estado; // ejemplos: "PAGADA", "ENVIADA"
+    private String estado;
 
     public Compra(Cliente cliente) {
         this.id = SEQ++;
